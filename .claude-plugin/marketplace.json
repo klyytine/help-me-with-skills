@@ -1,0 +1,23 @@
+{
+  "name": "help-me-with-skills",
+  "owner": {
+    "name": "klyytine"
+  },
+  "metadata": {
+    "description": "A skill that finds the right Claude skill for a task",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "help-me-with-skills",
+      "source": "./",
+      "description": "Finds the right Claude skill for a task: matches the task against every installed skill, reads the candidates and recommends one, or searches for a new skill to install.",
+      "version": "1.0.0",
+      "author": {
+        "name": "klyytine"
+      },
+      "category": "productivity",
+      "keywords": ["skills", "skill-finder", "discovery", "help"]
+    }
+  ]
+}
